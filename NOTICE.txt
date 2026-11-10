@@ -1,0 +1,6 @@
+ncurses 6.5 for tOS
+===================
+
+Built from the release tarball beside this package (ncurses-6.5.tar.gz), unmodified, with prefix /system/pkg/ncurses: headers in include/, libraries in lib/. gcc finds them by itself (its specs list this folder). License: MIT (LICENSE).
+lib/libncurses.so, libcurses.so and libtinfo.so are linker scripts that point at the wide-character libraries (libncursesw, libtinfow).
+glibc: its programs and shared libraries are linked dynamically against the GNU C Library, which tOS's base system carries in /lib64 and /lib/x86_64-linux-gnu.

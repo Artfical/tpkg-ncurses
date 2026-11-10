@@ -1,0 +1,29 @@
+{
+ "name": "ncurses",
+ "version": "6.5",
+ "license": "MIT",
+ "homepage": "https://invisible-island.net/ncurses/",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "ncurses-6.5.tar.gz"
+ ],
+ "desc": "ncurses 6.5 (wide characters): the terminal library, terminfo database, tput, infocmp, tic",
+ "file": "ncurses-6.5.tpkg",
+ "size": 1006042,
+ "sha256": "8c081e1ac97bbeef65aafea879e94606e3537af4c8965552e336ec0cf9e96d01",
+ "unpacked": 3170901,
+ "min_build": 615,
+ "depends": [
+  "gcc"
+ ],
+ "commands": {
+  "tput": "bin/tput",
+  "infocmp": "bin/infocmp",
+  "tic": "bin/tic",
+  "toe": "bin/toe",
+  "tset": "bin/tset"
+ }
+}
